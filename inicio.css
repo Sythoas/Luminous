@@ -1,0 +1,98 @@
+html {
+    font-size: 50%;
+    background-color: #0a0c11;
+    color: #858688 ;
+}
+
+
+body{
+    font-size: 16px ; /*1rem = 10px */
+    font-family: 'Montserrat' ;
+    font color: #aba8a4;    /*no anda*/
+}
+
+
+
+.luminu{
+    font-size: 5rem;
+}
+
+.Elegancia{
+    
+    flex-wrap: wrap;
+    font-size: 2.5rem;
+    position: relative;
+    left: 120rem;
+    right: 200rem;
+    
+}
+
+
+.titulo{          /*revisar para el logo + nombre !!!!!!!!*/
+    font-size: 3rem;
+    background-color: #1d1d29;    
+    font color: #aba8a4;
+}
+
+h1{
+    padding-bottom: 0%;
+    margin-left: 10rem;
+    margin-bottom: 1px;
+}
+h6{
+    margin-left: 12rem;
+    margin-top: 1px;
+    padding-bottom: 2rem;
+
+}
+
+
+.soldar{
+    height: 60rem;
+    width: 120rem;
+    margin-left: 50rem;   
+}
+
+.logo{
+    width: 12rem;
+    height: 12rem;
+    align-self: left;
+}
+
+.logo2{
+    width: 9rem;
+    height: 9rem;
+    margin-left: 124rem;
+}
+
+.hablar{
+    height: 35rem;
+    width: 40rem;
+    align-items: right;
+}
+
+.interior{
+    height: 40rem;
+    width: 50rem;
+}
+
+.servicios{
+    width: 50rem;
+    height: 70rem;
+    margin-left: 60rem; 
+    
+}
+
+
+
+.navi{
+    display: flex;
+    background-color: #1d1d29 ;
+    justify-content: space-around;
+    font-size: 30px;
+    padding: 1rem;
+    text-decoration: none;    
+}
+
+
+
