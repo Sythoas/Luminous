@@ -1,0 +1,92 @@
+html {
+    font-size: 50%;
+    background-color: #0a0c11;
+    color: #858688 ;
+
+}
+body{
+    font-size: 16px ; 
+    font-family: 'Montserrat';
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* HEADER Y NAV */
+.titulo{         
+    font-size: 3rem;
+    background-color: #1d1d29;    
+    font color: #aba8a4;
+}
+.logo{
+    width: 12rem;
+    height: 12rem;
+    align-self: left;
+}
+.textologo h1{
+    margin-left: 10rem;
+    margin-bottom: 1px;
+}
+.textologo h6{
+    margin-left: 12rem;
+    margin-top: 1px;
+    padding-bottom: 2rem;
+}
+
+/* NAV */
+.navi{  
+    display: flex;
+    background-color: #1d1d29 ;
+    justify-content: space-around;
+    font-size: 35px;
+    padding: 1rem;
+}
+
+.navi a{
+    color: #FFC72C;
+    text-decoration: dotted;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* body */
+h6{
+    font-weight: 700;
+}
+h1{
+    margin-left: 39%;
+    margin-right: 30%;
+}
+
+.redes{
+    left: 10%;
+    right: 10%;
+    
+}
+
+.tags{
+    display:flex;
+    justify-content: space-around;
+}
+.tags h2{
+    font-weight: 900;
+    color: #fafafa;
+}
+
+.datos {
+    margin-right: 0%;
+    margin-left: 8%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+.datos h2{
+    font-weight: 900;    color: #fafafa;
+
+}
+
+.imgs img{
+    margin-left: 40px;
+    width: 400px;
+    height: 400px;
+}

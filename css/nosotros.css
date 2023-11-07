@@ -1,0 +1,247 @@
+html {
+    font-size: 50%;
+    background-color: #0a0c11;
+    color: #858688 ;
+
+}
+body{
+    font-size: 16px ; 
+    font-family: 'Montserrat';
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* HEADER Y NAV */
+.titulo{         
+    font-size: 3rem;
+    background-color: #1d1d29;    
+    font color: #aba8a4;
+}
+.logo{
+    width: 12rem;
+    height: 12rem;
+    align-self: left;
+}
+.textologo h1{
+    margin-left: 10rem;
+    margin-bottom: 1px;
+}
+.textologo h6{
+    margin-left: 12rem;
+    margin-top: 1px;
+    padding-bottom: 2rem;
+}
+
+/* NAV */
+.navi{  
+    display: flex;
+    background-color: #1d1d29 ;
+    justify-content: space-around;
+    font-size: 35px;
+    padding: 1rem;
+}
+
+.navi a{
+    color: #FFC72C;
+    text-decoration: dotted;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* body */
+
+.introduccion h2{
+    margin-top: 29rem;
+    margin-left: 38%;
+    margin-right: 30%;
+    font-size: 300%;
+}
+.introduccion p{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 900;
+    font-size: 150%;
+}
+
+/* Contenedor de Vision */
+.contenedor1{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    width: 180rem;
+    height: 120rem;
+    font-size: 20px;
+}
+.contenedor1 h2{
+    font-weight: 900;
+    margin-left: 0rem;
+    margin-top: 100px;
+}
+.contenedor1 p{
+    margin-left: 5px;
+    margin-right: 15rem;
+    margin-top: 190px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.4;
+}
+.contenedor1 img{
+    margin-left: 34rem;
+    margin-top: 320px ;
+    width: 400px;
+    height: 400px;
+}
+
+/* Contenedor de mision*/
+.contenedor2{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+width: 180rem;
+height: 70rem;
+font-size: 20px;
+}
+.contenedor2 img{
+    margin-right: 25rem;
+    margin-top: 90px ;
+    width: 400px;
+    height: 400px;
+}
+.contenedor2 h2{
+    font-weight: 900;
+    margin-left: 5rem;
+}
+.contenedor2 p{
+    margin-left: 15rem;
+    margin-top: 100px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.4;
+}
+
+/* contenedor objetivos */
+.contenedor3{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 180rem;
+height: 120rem;
+font-size: 20px;
+}
+.contenedor3 h2{
+    font-weight: 900;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.contenedor3 img{
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 240px;
+    height: 240px;
+}
+.contenedor3 p{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 700;
+    text-align: center;
+    /* line-height: 1.4; */
+}
+
+/* SABIAS QUE¿ */
+.contenedorestadistica {
+    width: 100%;
+    height: 200rem;
+    /* background: #FAFAFA; */
+}
+.grafico{
+    width: 600px;
+    height: 600px;
+    margin-left: 33.5%;
+    margin-right: 50%;
+}
+.contenedorestadistica p{
+    font-size: 200%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contenedorestadistica h2{
+    margin-left: 37%;
+    margin-right: 36%;
+    font-size: 400%;
+    font-weight: 900;
+}
+
+.conten{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 70%;
+}
+.dato1{
+    width: 600px;
+    height: 750px;
+    /* background: #000; */
+}
+.dato1 h2{
+    margin-left: 25rem;
+}
+.dato1 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 20rem;
+}
+.dato1 p{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+.dato2{
+    width: 600px;
+    height: 750px;
+    /* background: #000; */
+}
+.dato2 h2{
+    margin-left: 30%;
+    margin-right: 10%;
+}
+.dato2 img{
+    width: 260px;
+    height: 400px;
+    margin-left: 26.5%;
+}
+.dato2 p{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+    .dato3{
+    width: 600px;
+    height: 750px;
+    /* background: #000; */
+}
+.dato3 h2{
+    margin-left: 19%;
+    margin-right: 10%;
+}
+.dato3 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 28%;
+}
+.dato3 p{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}

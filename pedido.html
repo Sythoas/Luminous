@@ -2,52 +2,157 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/pedido.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
 </head>
+
+<header class="titulo">  <!-- el titulo, eslogan y logo de nuestra marca-->
+    <img class="logo" align="left" src="img/logo.png">
+    <div class="textologo">
+    <h1> Luminous </h1>     
+    <h6>Descubre la belleza de cada rincon</h6>
+</div>
+</header>
+
+
+<nav class="navi">  
+    <a href="index.html"> INICIO </a>
+    <a href="nosotros.html"> NOSOTROS </a>
+    <a href="pedido.html"> PEDIDO </a>
+    <a href="contactanos.html"> CONTACTANOS </a> 
+</nav>
 <body>
-    
-
-    <section>
-
-        <h2> PIDE EL TUYO!!!</h2>
-        <form>
-    
-            <fieldset>
-                <legend> Rellena estos campos</legend>
-                 
-                <div>
-                    <label> Nombre </label>
-                    <input type="text" placeholder="Tu nombre" />
-                </div>
-               
-                <div>
-                    <label> Telefono </label>
-                    <input type="number" placeholder="Tu numero" />
-                </div>
-                
-                <div>
-                    <label> Correo <label>
-                    <input type="email" placeholder="Tu email" />
-                </div>
-                
-                <div>
-                    <label> ¿Como lo quieres? </label>
-                    <textarea> </textarea>
-                </div>
-              
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
-                
-    
-            </fieldset>       
-    
-        </form>
-    
-    </section>
-    
-    
-
+ 
+    <!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Nombre
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Ingrese su nombre" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="Ingrese suemail" />
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Edad
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   placeholder="Ingrese su edad" />
+        </div>
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Cual es su rango de edad?
+            </label>
+             
+            <!-- Dropdown options -->
+            <select   name="role" id="role">
+                <option value="student">10 a 18</option>
+                <option value="intern">18 a 28</option>
+                <option value="professional">28 a 40
+                </option>
+                <option value="other">Mas</option>
+            </select>
+        </div>
+  
+        <div class="form-control">
+            <label>
+            Recomendarias un producto de Luminous a tus cercanos?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Si</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Quizas</input>
+            </label>
+        </div>
+  
+        <div class="form-control">
+            <label>Con que estilo te sientes identificado?
+                <small></small>
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Llamativo</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Modesto</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Extravagante</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Minimalista</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Moderno</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">Abstracto</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Tradicional</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Hogareño</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Elegante</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Informal</input></label>
+        </div>
+  
+        <div class="form-control">
+            <label for="comment">
+                Describenos detalladamente que tienes en mente
+            </label>
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Preparar
+        </button>
+    </form>
 </body>
 </html>

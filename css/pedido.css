@@ -1,0 +1,120 @@
+html {
+    font-size: 50%;
+    background-color: #0a0c11;
+    color: #858688 ;
+
+}
+body{
+    font-size: 16px ; 
+    font-family: 'Montserrat';
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* HEADER Y NAV */
+.titulo{         
+    font-size: 3rem;
+    background-color: #1d1d29;    
+    font color: #aba8a4;
+}
+.logo{
+    width: 12rem;
+    height: 12rem;
+    align-self: left;
+}
+.textologo h1{
+    margin-left: 10rem;
+    margin-bottom: 1px;
+}
+.textologo h6{
+    margin-left: 12rem;
+    margin-top: 1px;
+    padding-bottom: 2rem;
+}
+
+/* NAV */
+.navi{  
+    display: flex;
+    background-color: #1d1d29 ;
+    justify-content: space-around;
+    font-size: 35px;
+    padding: 1rem;
+}
+
+.navi a{
+    color: #FFC72C;
+    text-decoration: dotted;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* PEDIDO */
+ /* Styling the Form (Color, Padding, Shadow) */
+ label{
+    color: #FAFAFA;
+    font-weight: 800s;
+ }
+ form {
+    background-color: #1D1D29;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+
+/* Styling form-control Label */ 
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styling form-control input, 
+select, textarea */
+.form-control input{
+    color: #000000;
+}
+.form-control select{
+    color: #000000;
+}
+.form-control textarea {
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+.form-control textarea#placeholder{
+color: rgb(0, 0, 0);
+}
+
+/* Styling form-control Radio 
+button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+}
+/* Styling Button */
+button {
+    background-color: #FFC729;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
