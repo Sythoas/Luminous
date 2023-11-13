@@ -1,7 +1,7 @@
 html {
     font-size: 50%;
     background-color: #0a0c11;
-    color: #858688 ;
+    color: #aeb5c2 ;
 
 }
 body{
@@ -257,9 +257,19 @@ body{
   p {
     text-align: center;
   }
+.consulta{  
+    display: flex;
+    background-color: #1d1d29 ;
+    justify-content: space-around;
+    padding: 10px;
+}
 
-
-
+.consulta a{
+    color: #858688 ;
+    text-decoration: dotted;
+    font-size: 20px;
+    font-weight: 700;
+}
 
 
 

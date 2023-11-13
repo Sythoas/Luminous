@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luminous</title>
+    <link rel="icon" href="img/favicon-16x16.png">
+    <title>Formulario de inicio de sesión</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
-    <h1> tu mami</h1>
+    <div class="formulario">
+        <h1>Luminous</h1>
+        <form>
+            <div class="username">
+                <input type="text" id="usuario" name="usuario" required>
+                <label for="usuario">Usuario:</label>
+            </div>
+            <div class="username">
+                <input type="password" id="contrasena" name="contrasena" required>
+                <label for="contrasena">Contraseña:</label>
+            </div>
+            <input type="submit" value="Iniciar sesion">
+        </form>
+    </div>
+  <script src="security.js"></script>
 </body>
 </html>
+

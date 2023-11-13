@@ -29,15 +29,12 @@
         <a href="pedido.html"> PEDIDO </a>
         <a href="contactanos.html"> CONTACTANOS </a> 
     </nav>
+    <div id="mensaje-confirmacion"></div>
 
-
-
-       <div class="entrada">
+    <div class="entrada">
         <h2> Luminous, nuestro microemprendimiento</h2>
-            <img src="img/soldadura.gif" >
-       
-     </div>
-
+        <img src="img/soldadura.gif">
+    </div>
 
     <div class="Eleganciareciclada">
 
@@ -103,13 +100,21 @@
         </ul>
       </div>
 </Div>
-
-
-
     <!-- <footer>
         <p>
             Todos los derechos reservados. Luminous 6 "E" E.P.E.T N1
         </p>
     </footer>    -->
+    <script>
+        // Verifica si hay un mensaje de confirmación en la URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const mensaje = urlParams.get('mensaje');
+
+    if (mensaje === 'pedido_guardado') {
+            // Muestra el mensaje de confirmación
+            const confirmacion = confirm('¡Pedido guardado correctamente! ¿Deseas cerrar este mensaje?');
+    }
+
+    </script>
 </body>
 </html>
